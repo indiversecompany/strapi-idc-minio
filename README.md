@@ -2,7 +2,7 @@
 
 Custom upload plugin for use with Strapi API server. 
 
-Build to address the problem that existing upload code / plugins 
+Built to address the problem that existing upload code / plugins 
 populate API responses with the same endpoint as the internal minio or s3 bucket file is 
 uploaded to. 
 
