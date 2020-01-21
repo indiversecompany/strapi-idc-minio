@@ -1,0 +1,49 @@
+{
+  "name": "strapi-idc-minio",
+  "version": "1.0.0",
+  "description": "IDC Plugin to split Minio Target and External Base URL, also add /path/ on uploads",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "minio",
+    "idc",
+    "strapi",
+    "custom domain"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "minio": ">= 7.0.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "danny@hallwood.co.uk",
+    "name": "danny",
+    "url": "https://github.com/creslinux"
+  },
+  "maintainers": [
+    {
+    "email": "danny@hallwood.co.uk",
+    "name": "danny",
+    "url": "https://github.com/creslinux"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indiversecompany/strapi-idc-minio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/indiversecompany/strapi-idc-minio/issues"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
